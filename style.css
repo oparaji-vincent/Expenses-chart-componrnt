@@ -1,0 +1,95 @@
+:root{
+    --primary-color: rgb(236, 117, 93);
+    --accent-color: rgb(118, 181, 188);
+    --light-yellow: rgb(255, 252, 247);
+    --background-color: rgb(247, 233, 220);
+    /* ### Neutral */
+
+    --Dark-brown: hsl(25, 47%, 25%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33%, 100%, 98%);
+    --box-border-radius: 15px;
+}
+
+body{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.container{
+    width: 30%;
+}
+
+.header{
+    color: white;
+}
+
+.percent{
+    color: var(--Dark-brown);
+    text-align: right;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--box-border-radius);
+    padding: 20px;
+    height: fit-content;
+    margin: 20px auto;
+}
+
+p{
+    color: rgb(156, 150, 144);
+    font-size: 14px;
+    margin: 2px;
+}
+.balance{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.mybalance{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.amount{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--Dark-brown);
+    padding: 0;
+
+}
+
+.section{
+    background-color: var(--Very-pale-orange);
+    color: var(--Dark-brown);
+    padding: 25px;
+    border-radius: var(--box-border-radius);
+}
+
+
+.section-footer{
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-month-total{
+    align-self: flex-end;
+    font-size: 00.8rem;
+}
